@@ -9,4 +9,5 @@
      comment: testing
      uid: 1045
 #     password: password_hash('sha512')
+     password: Owb1v2Hrvthlc
 ...

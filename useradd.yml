@@ -1,0 +1,12 @@
+---
+- name: add users
+  hosts: all
+  tasks:
+  - name: add users
+    user:
+     name: anstestuser
+#     state: touch
+     comment: testing
+     uid: 1045
+#     password: password_hash('sha512')
+...
